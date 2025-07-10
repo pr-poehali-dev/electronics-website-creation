@@ -159,60 +159,46 @@ const Index = () => {
               Широкий ассортимент мобильных телефонов
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">X Along Pro</CardTitle>
+                <CardTitle className="text-lg">X Along 4G</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Профессиональная серия X Along
+                  Надёжный смартфон с поддержкой 4G
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  5+ моделей
+                  В наличии
                 </Badge>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">X Along Max</CardTitle>
+                <CardTitle className="text-lg">X Along 10S</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Максимальная производительность X Along
+                  Продвинутая модель с улучшенными характеристиками
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  3+ моделей
+                  Хит продаж
                 </Badge>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">X Along Lite</CardTitle>
+                <CardTitle className="text-lg">X Fox 12</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Доступная линейка X Along для повседневных задач
+                  Инновационная модель с уникальным дизайном
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  4+ моделей
-                </Badge>
-              </CardContent>
-            </Card>
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">X Along Ultra</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-gray-600">
-                  Топовая серия X Along с передовыми технологиями
-                </p>
-                <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  2+ моделей
+                  Новинка 2024
                 </Badge>
               </CardContent>
             </Card>
