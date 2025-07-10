@@ -19,7 +19,7 @@ const Index = () => {
             <div className="flex items-center space-x-2">
               <Icon name="Zap" className="h-8 w-8 text-blue-600" />
               <span className="text-2xl font-bold text-gray-900">
-                ElectroTech
+                X.ru/.com
               </span>
             </div>
             <nav className="hidden md:flex space-x-8">
@@ -301,7 +301,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Zap" className="h-6 w-6" />
-                <span className="text-xl font-bold">ElectroTech</span>
+                <span className="text-xl font-bold">X.ru/.com</span>
               </div>
               <p className="text-gray-400">
                 Ведущий производитель электронных компонентов в России
