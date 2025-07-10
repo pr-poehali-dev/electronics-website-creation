@@ -156,61 +156,63 @@ const Index = () => {
               Наша продукция
             </h2>
             <p className="text-lg text-gray-600">
-              Широкий ассортимент электронных компонентов
+              Широкий ассортимент мобильных телефонов
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Cpu" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">Микроконтроллеры</CardTitle>
+                <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
+                <CardTitle className="text-lg">iPhone</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Процессоры для встраиваемых систем
+                  Флагманские смартфоны Apple
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  200+ моделей
+                  10+ моделей
                 </Badge>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Zap" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">Силовые модули</CardTitle>
+                <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
+                <CardTitle className="text-lg">Samsung Galaxy</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Компоненты для управления питанием
+                  Премиальные Android-смартфоны
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  150+ моделей
+                  15+ моделей
                 </Badge>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Radio" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">RF модули</CardTitle>
+                <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
+                <CardTitle className="text-lg">Xiaomi</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-gray-600">
-                  Радиочастотные компоненты
+                  Доступные смартфоны с отличными характеристиками
                 </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  100+ моделей
+                  20+ моделей
                 </Badge>
               </CardContent>
             </Card>
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
-                <Icon name="Gauge" className="h-8 w-8 text-blue-600" />
-                <CardTitle className="text-lg">Датчики</CardTitle>
+                <Icon name="Smartphone" className="h-8 w-8 text-blue-600" />
+                <CardTitle className="text-lg">Huawei</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-gray-600">Измерительные приборы</p>
+                <p className="text-sm text-gray-600">
+                  Инновационные смартфоны с лучшими камерами
+                </p>
                 <Badge className="mt-2 bg-blue-100 text-blue-800">
-                  300+ моделей
+                  12+ моделей
                 </Badge>
               </CardContent>
             </Card>
